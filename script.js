@@ -18,8 +18,8 @@ function compute()
     //system variables
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
-    var result = "<br />If you deposit " + principal + ",<br />" +
-                "at an interest rate of " + rate + "%. <br />" +
+    var result = "<br />If you deposit <strong>" + principal + "</strong>,<br />" +
+                "at an interest rate of <strong>" + rate + "%</strong>. <br />" +
                 "You will receive an amount of <strong>" + interest + "</strong>,<br />" +
                 "in the year <strong>" + year + "</strong>.";
 
